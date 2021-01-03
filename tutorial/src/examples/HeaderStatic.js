@@ -1,5 +1,5 @@
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import React from 'react';
+import { StaticQuery, graphql } from 'gatsby';
 
 const ComponentName = () => (
   <StaticQuery
@@ -21,6 +21,6 @@ const ComponentName = () => (
     `}
     render={data => <pre>{JSON.stringify(data, null, 4)}</pre>}
   ></StaticQuery>
-)
+);
 
-export default ComponentName
+export default ComponentName;
