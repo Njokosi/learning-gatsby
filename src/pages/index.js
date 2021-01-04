@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <Layout>
         <p> How to turn Django Admin into a lightweight dashboard</p>
-        <ExampleButton>Click here</ExampleButton>
+        <ExampleButton>Example button</ExampleButton>
       </Layout>
     </div>
   );
