@@ -13,7 +13,7 @@ const getImages = graphql`
         }
       }
     }
-    fluid: file(relativePath: { eq: "px-3.jpg" }) {
+    fluid: file(relativePath: { eq: "px-5.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid_withWebp_tracedSVG
